@@ -1,9 +1,14 @@
 ---
 const today = new Date();
+const created = new Date("2024-02-28");
+const timeDiff = Math.abs(today.getTime() - created.getTime());
+const daysDiff = Math.ceil(timeDiff / (1000 * 3600 * 24));
 ---
 
 <footer>
-	&copy; {today.getFullYear()} Your name here. All rights reserved.
+	&copy; {today.getFullYear()} 月落星河Tsukistar. All rights reserved.
+	<br />
+	此博客已使用Astro运行 {daysDiff} 天
 	<div class="social-links">
 		<a href="https://m.webtoo.ls/@astro" target="_blank">
 			<span class="sr-only">Follow Astro on Mastodon</span>
