@@ -7,14 +7,19 @@ export default defineUserConfig({
 
   locales: {
     "/": {
-      lang: "en-US",
-      title: "Blog Demo",
-      description: "A blog demo for vuepress-theme-hope",
-    },
-    "/zh/": {
       lang: "zh-CN",
-      title: "博客演示",
-      description: "vuepress-theme-hope 的博客演示",
+      title: "星河夜梦记",
+      description: "月落星河Tsukistar的博客",
+    },
+    "/zh-TC/": {
+      lang: "zh-TW",
+      title: "星河夜夢記",
+      description: "月落星河Tsukistar的博客",
+    },
+    "/en-US/": {
+      lang: "en-US",
+      title: "Tsukistar's Fantasy Hometown",
+      description: "Tsukistar's Blog",
     },
   },
 
